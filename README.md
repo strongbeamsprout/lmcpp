@@ -1,5 +1,5 @@
 # lmcpp
-a rewrite simplified version of "lm/summary.lm" function in R
+A rewrite simplified version of "lm/summary.lm" function in R
 
 ## Getting Started
 
