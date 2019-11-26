@@ -68,7 +68,7 @@ This is the 1st version and might be the last version of lmcpp package.
 
 ## Authors
 
-* **Yile Chen** - [strongbeamsprout](https://github.com/strongbeamsprout)
+* **strongbeamsprout** - [strongbeamsprout](https://github.com/strongbeamsprout)
 
 ## License
 
