@@ -30,6 +30,7 @@ data(mtcars)
 
 #run a linear regression and 
 fit = lmcpp(mpg ~ cyl + hp, data = mtcars, prt = TRUE)
+
 #>Call:
 #>lmcpp(formula = mpg ~ cyl + hp, data = mtcars, prt = TRUE)
 #>
@@ -39,6 +40,7 @@ fit = lmcpp(mpg ~ cyl + hp, data = mtcars, prt = TRUE)
 
 #summarize the regression output
 summ = summary.lmcpp(fit, correlation = TRUE, prt = TRUE)
+
 #>Call:
 #>lmcpp(formula = mpg ~ cyl + hp, data = mtcars)
 #>
@@ -51,7 +53,7 @@ summ = summary.lmcpp(fit, correlation = TRUE, prt = TRUE)
 #>(Intercept) 36.90833    2.19080 16.84698  0.00000
 #>cyl         -2.26469    0.57589 -3.93252  0.00048
 #>hp          -0.01912    0.01500 -1.27472  0.21253
-
+#>
 #>Residual standard erro:3.17 on 29 degrees of freedom
 #>Multiple R-squared:	0.7407,	Adjusted R-squared:	0.7228
 #>F-statistic: 41.42 on 2 and 29 DF, p-value: 3.161781e-09
