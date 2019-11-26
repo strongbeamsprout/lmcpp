@@ -4,9 +4,6 @@ A rewrite simplified version of "lm/summary.lm" function in R
   [![Travis build status](https://travis-ci.org/strongbeamsprout/lmcpp.svg?branch=master)](https://travis-ci.org/strongbeamsprout/lmcpp)
   <!-- badges: end -->
 
-  <!-- badges: start -->
-  [![Codecov test coverage](https://codecov.io/gh/strongbeamsprout/lmcpp/branch/master/graph/badge.svg)](https://codecov.io/gh/strongbeamsprout/lmcpp?branch=master)
-  <!-- badges: end -->  
 ## Getting Started
 
 ### Prerequisites
