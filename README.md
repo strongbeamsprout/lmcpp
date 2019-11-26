@@ -17,9 +17,8 @@ install.packages("RcppArmadillo")
 ### Installing
 
 ```
-# The way to install lmcpp is to install from GitHub:
-# install.packages("devtools")
-devtools::install_github("strongbeamsprout/lmcpp.git")
+# The safest way to install lmcpp is to download the package lmcpp.zip from GitHub:
+install.packages("Downloads/lmcpp.zip")
 ```
 
 ## Usage
@@ -42,24 +41,27 @@ fit = lmcpp(mpg ~ cyl + hp, data = mtcars, prt = TRUE)
 
 #summarize the regression output
 summ = summary.lmcpp(fit, correlation = TRUE, prt = TRUE)
+#>Call:
+#>lmcpp(formula = mpg ~ cyl + hp, data = mtcars)
+#>
 #>Residuals:
 #>    Min.  1st Qu.   Median  3rd Qu.     Max. 
-#>-0.68735 -0.12369  0.00758  0.14118  0.82490 
+#>-4.49475 -2.49006 -0.18283  1.97768  7.29335 
 #>
 #>Coefficients:
-#>     Estimate Std. Error  t value Pr(>|t|)
-#>[1,] 36.90833    2.19080 16.84698  0.00000
-#>[2,] -2.26469    0.57589 -3.93252  0.00048
-#>[3,] -0.01912    0.01500 -1.27472  0.21253
-#>
+#>            Estimate Std. Error  t value Pr(>|t|)
+#>(Intercept) 36.90833    2.19080 16.84698  0.00000
+#>cyl         -2.26469    0.57589 -3.93252  0.00048
+#>hp          -0.01912    0.01500 -1.27472  0.21253
+
 #>Residual standard erro:3.17 on 29 degrees of freedom
 #>Multiple R-squared:	0.7407,	Adjusted R-squared:	0.7228
 #>F-statistic: 41.42 on 2 and 29 DF, p-value: 3.161781e-09
 #>
 #>Correlation of Coefficients:
-#>     [,1]  [,2] 
-#>[1,] -0.01      
-#>[2,] 0     -0.01
+#>    (Intercept) cyl  
+#>cyl -0.79            
+#>hp  0.35        -0.83
 ```
 
 ## Versioning
