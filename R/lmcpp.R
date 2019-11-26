@@ -1,5 +1,5 @@
-library("Rcpp")
-library("RcppArmadillo")
+#library("Rcpp")
+#library("RcppArmadillo")
 
 #'Fitting Linear Model
 #'
