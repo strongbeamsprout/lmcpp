@@ -1,6 +1,10 @@
 # lmcpp
 A rewrite simplified version of "lm/summary.lm" function in R
 
+  <!-- badges: start -->
+  [![Travis build status](https://travis-ci.org/strongbeamsprout/lmcpp.svg?branch=master)](https://travis-ci.org/strongbeamsprout/lmcpp)
+  <!-- badges: end -->
+
 ## Getting Started
 
 ### Prerequisites
