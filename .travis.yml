@@ -1,6 +1,6 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 warnings_are_errors: false
-CODECOV_TOKEN: "ecac7715-4027-4a95-ae5d-a870588ec471"
+env: CODECOV_TOKEN="ecac7715-4027-4a95-ae5d-a870588ec471"
 language: R
 cache: packages
 
