@@ -3,11 +3,9 @@ a rewrite simplified version of "lm/summary.lm" function in R
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
-What things you need to install beforehand so that this package can run smoothly
+Things you need to install beforehand so that this package can run smoothly
 
 ```
 install.packages("Rcpp")
