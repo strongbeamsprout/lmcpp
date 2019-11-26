@@ -24,3 +24,6 @@ Suggests:
 VignetteBuilder: knitr
 Remotes:
     strongbeamsprout/lmcpp
+
+Author: strongbeamsprout
+Maintainer: strongbeamsprout
